@@ -1,8 +1,12 @@
 # ChakraCore
 
+[![Join the chat at https://gitter.im/choikwa/ChakraCore](https://badges.gitter.im/choikwa/ChakraCore.svg)](https://gitter.im/choikwa/ChakraCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Join the chat at https://gitter.im/Microsoft/ChakraCore](https://badges.gitter.im/Microsoft/ChakraCore.svg)](https://gitter.im/Microsoft/ChakraCore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ChakraCore is the core part of Chakra, the high-performance JavaScript engine that powers Microsoft Edge and Windows applications written in HTML/CSS/JS.  ChakraCore supports Just-in-time (JIT) compilation of JavaScript for x86/x64/ARM, garbage collection, and a wide range of the latest JavaScript features.  ChakraCore also supports the [JavaScript Runtime (JSRT) APIs](https://github.com/Microsoft/ChakraCore/wiki/JavaScript-Runtime-%28JSRT%29-Overview), which allows you to easily embed ChakraCore in your applications.
 
-You can stay up-to-date on progress by following the [MSEdge developer blog](http://blogs.windows.com/msedgedev/).
+You can stay up-to-date on progress by following the [MSEdge developer blog](https://blogs.windows.com/msedgedev/).
 
 ## [Build Status](https://github.com/Microsoft/ChakraCore/wiki/Build-Status)
 
@@ -12,26 +16,26 @@ You can stay up-to-date on progress by following the [MSEdge developer blog](htt
 | __x64__ | [![x64debug][x64dbgicon]][x64dbglink] | [![x64test][x64testicon]][x64testlink] | [![x64release][x64relicon]][x64rellink] |
 | __arm__ | [![armdebug][armdbgicon]][armdbglink] | [![armtest][armtesticon]][armtestlink] | [![armrelease][armrelicon]][armrellink] |
 
-[x86dbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_debug/badge/icon
-[x86dbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_debug/
-[x86testicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_test/badge/icon
-[x86testlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_test/
-[x86relicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_release/badge/icon
-[x86rellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x86_release/
+[x86dbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_debug/badge/icon
+[x86dbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_debug/
+[x86testicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_test/badge/icon
+[x86testlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_test/
+[x86relicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_release/badge/icon
+[x86rellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x86_release/
 
-[x64dbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_debug/badge/icon
-[x64dbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_debug/
-[x64testicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_test/badge/icon
-[x64testlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_test/
-[x64relicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_release/badge/icon
-[x64rellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/x64_release/
+[x64dbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_debug/badge/icon
+[x64dbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_debug/
+[x64testicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_test/badge/icon
+[x64testlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_test/
+[x64relicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_release/badge/icon
+[x64rellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/x64_release/
 
-[armdbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_debug/badge/icon
-[armdbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_debug/
-[armtesticon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_test/badge/icon
-[armtestlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_test/
-[armrelicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_release/badge/icon
-[armrellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/arm_release/
+[armdbgicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_debug/badge/icon
+[armdbglink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_debug/
+[armtesticon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_test/badge/icon
+[armtestlink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_test/
+[armrelicon]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_release/badge/icon
+[armrellink]: http://dotnet-ci.cloudapp.net/job/Microsoft_ChakraCore/job/master/job/arm_release/
 
 Above is a table of our rolling build status. We run additional builds on a daily basis. See [Build Status](https://github.com/Microsoft/ChakraCore/wiki/Build-Status) for the status of all builds.
 
@@ -61,7 +65,9 @@ More details in [Building ChakraCore](https://github.com/Microsoft/ChakraCore/wi
 
 Once built, you have a few options for how you can use ChakraCore:
 
-* The most basic is to test the engine is running correctly with the *ch.exe* binary.  This app is a lightweight hosting of JSRT that you can use to run small applications.  After building, you can find this binary in: `Build\VcBuild\bin\[platform+output]`  (eg. `Build\VcBuild\bin\x64_debug`)
+* The most basic is to test the engine is running correctly with the *ch.exe* binary.  This app is a lightweight hosting of JSRT that you can use to run small applications.  After building, you can find this binary in:
+  * `Build\VcBuild\bin\${platform}_${configuration}`
+  * (e.g. `Build\VcBuild\bin\x64_debug`)
 * You can [embed ChakraCore](https://github.com/Microsoft/ChakraCore/wiki/Embedding-ChakraCore) in your applications - see [documentation](https://github.com/Microsoft/ChakraCore/wiki/Embedding-ChakraCore) and [samples](http://aka.ms/chakracoresamples).
 * Finally, you can also use ChakraCore as the JavaScript engine in Node.  You can learn more by reading how to use [Chakra as Node's JS engine](https://github.com/Microsoft/node)
 
@@ -81,4 +87,4 @@ Please refer to [Contribution guidelines](CONTRIBUTING.md) and the [Code of Cond
 For details on our planned features and future direction please refer to our [roadmap](https://github.com/Microsoft/ChakraCore/wiki/Roadmap).
 
 ## Contact us
-For questions about ChakraCore, please open an [issue](https://github.com/Microsoft/ChakraCore/issues/new) and prefix the issue title with [Question].
+For questions about ChakraCore, you can reach us on [Gitter](https://gitter.im/Microsoft/ChakraCore) or open an [issue](https://github.com/Microsoft/ChakraCore/issues/new) and prefix the issue title with [Question]. See [Question](https://github.com/Microsoft/ChakraCore/issues?q=label%3AQuestion) tag for already-opened questions.
